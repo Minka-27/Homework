@@ -1,0 +1,75 @@
+/* Styling for To-Do List */
+body {
+    font-family: monospace;
+    background-color: #93b1a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .ToDoContainer {
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0 0 20px;
+    color: #183D3D;
+  }
+  
+  .ToDoInput {
+    margin-bottom: 20px;
+  }
+    
+  input[type="text"] {
+    font-family:monospace;
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom:20px;
+  }
+  
+  #addBtn {
+    background-color: #5c8374;
+    color: white;
+    border-radius: 5px;
+    font-family: monospace;
+    padding: 10px;
+  }
+  #addBtn:hover {
+    background-color: #183d3d;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  #deleteBtn {
+    background-color: #5c8374;
+    color: white;
+    border-radius: 5px;
+    font-family: monospace;
+    padding: 10px;
+  }
+  
+  #deleteBtn:hover {
+    background-color: #ff0000;
+  }
+  
