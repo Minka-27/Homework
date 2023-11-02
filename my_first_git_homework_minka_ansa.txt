@@ -1,1 +1,2 @@
 This is my first Git homework.
+Today is November 2nd. Checking git repo. Test
